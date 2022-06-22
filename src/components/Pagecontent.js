@@ -4,6 +4,7 @@ import ProgressContainer from "./ProgressContainer";
 import WorkExperience from "./WorkExperience";
 import Form from "./Form";
 import Footer from "./Footer";
+import img from '../'
 
 
 export default function Pagecontent() {
@@ -19,7 +20,7 @@ export default function Pagecontent() {
                 <div className="avatar hover-effect shadow-sm p-1 rounded">
                   <img
                    className="rounded"
-                    src='../image/shaista.jpg'
+                    src='./image/shaista.jpg'
                     alt=" "
                     style={{ width: "200px", height: "200px" }}
                   />
