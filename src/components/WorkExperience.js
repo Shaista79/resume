@@ -32,9 +32,19 @@ export default function WorkExperience() {
       </div>
     </div>
     <hr />
+    
     <div className="work-experience-section px-3 px-lg-4">
         <h2 className="mb-4" style={{color: '#154D52'}}>Projects</h2>
+        
         <div className="container div-center">
+      <div className="card" style={{width: '100%'}}>
+        <div className="card-body">
+          <h5 className="card-title" style={{color: '#154D52'}}>Blog App (MERN PROJECT)</h5>
+      
+          <p className="card-text"></p>
+          <a href="https://blogappmernproject.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link" style={{color: '#154D52'}}>See here</a>
+        </div>
+      </div>
       <div className="card" style={{width: '100%'}}>
         <div className="card-body">
           <h5 className="card-title" style={{color: '#154D52'}}>Pharmaceutical website </h5>

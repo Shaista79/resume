@@ -4,7 +4,9 @@ import ProgressContainer from "./ProgressContainer";
 import WorkExperience from "./WorkExperience";
 import Form from "./Form";
 import Footer from "./Footer";
-import img from '../'
+import image from './shaista.jpg';
+import pdf from './Naaz Resume new.pdf'
+
 
 
 export default function Pagecontent() {
@@ -20,7 +22,7 @@ export default function Pagecontent() {
                 <div className="avatar hover-effect shadow-sm p-1 rounded">
                   <img
                    className="rounded"
-                    src='./image/shaista.jpg'
+                    src={image}
                     alt=" "
                     style={{ width: "200px", height: "200px" }}
                   />
@@ -36,7 +38,7 @@ export default function Pagecontent() {
                 >
                   <a
                     className="btn btn-light text-dark shadow-sm mt-1 me-1"
-                    href="./image/resume updated.pdf"
+                    href={pdf}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
